@@ -15,6 +15,7 @@ public class doublyLLaddpos {
     }
     private void addtail(int data)
     {
+      //add tail
         node temp = new node(data);
         if(head == null)
         {
