@@ -1,4 +1,10 @@
-public class example{
-    int a[][] = {{1,2},2,{3,4}};
+import java.util.*;
+public class example {
 
+
+    public static void main(String[] args) {
+        int prices[] = {1,2,2};
+        int money = 3;
+        System.out.println(buyChoco(prices,money));
+    }
 }
