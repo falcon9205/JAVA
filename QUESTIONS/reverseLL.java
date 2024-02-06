@@ -47,7 +47,7 @@ public class reverseLL {
             // }  
             //  head = prev;
         }
-        private  node recursionreverse(node head)
+        private node recursionreverse(node head)
         {
              if(head==null || head.next==null)
                return head;
