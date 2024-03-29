@@ -34,7 +34,7 @@ public class knapsack {
     public static void main(String[] args) {
         int profit[] = { 1, 2, 3, 2 };
         int wt[] = { 4, 5, 1, 2 };
-        int w = 10;
+        int w = 5;
         int n = profit.length;
 
         setter(w, n);
