@@ -1,3 +1,4 @@
+//code
 import java.util.*;
 public class Search2d{
   public static boolean check(int a[][],int target,int i ,int j)
