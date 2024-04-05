@@ -12,9 +12,9 @@ public class temp{
             tempmax++;
             freq.put(nums[i], freq.getOrDefault(nums[i], 0) + 1);
            }
-           else{
+           else
             tempmax=0;
-           }
+           
            count = Math.max(count,tempmax);
 
         }
