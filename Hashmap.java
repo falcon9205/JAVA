@@ -4,6 +4,7 @@ public class Hashmap{
     {
         int mid = 0;
        do{
+           
           mid = (f+l)/2;
          if(a[mid] ==x)
            return true;
