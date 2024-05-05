@@ -9,6 +9,7 @@ public class binarysearch {
             System.out.println("Element found at "+mid);
             return;
          }
+             
         else if(a[mid]<x)
            f = mid+1;
         else if(a[mid]>x)
