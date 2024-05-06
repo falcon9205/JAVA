@@ -5,6 +5,8 @@ public class LCM{
          return x;
         return gcd(y,x%y); 
     }
+
+    
     private static int lcm(int x, int y)
     {
         return (x*y)/(gcd(x, y));
